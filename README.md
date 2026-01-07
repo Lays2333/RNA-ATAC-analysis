@@ -1,5 +1,5 @@
 
-# Multi-Omic Integration Analysis of [Disease Name]
+# Multi-Omic Integration Analysis 
 
 ### Uncovering Gene Regulatory Landscapes via scRNA-seq and scATAC-seq
 
@@ -35,24 +35,6 @@ As a researcher at the intersection of **Bioinformatics and AI**, I developed th
 
 * **Cell-type Classification:** Developed a custom classifier to cross-validate cell annotations between modalities.
 * **Imputation:** Predicted missing ATAC signals from RNA profiles using latent space mapping.
-
----
-
-## 📂 Repository Structure
-
-```text
-├── notebooks/
-│   ├── 01_Preprocessing_QC.ipynb      # Filtering & Doublet Detection
-│   ├── 02_MultiVI_Integration.ipynb   # VAE-based Joint Embedding
-│   ├── 03_GRN_Inference.ipynb         # Regulatory Network Construction
-│   └── 04_Visualization.ipynb         # Interactive UMAPs & Heatmaps
-├── src/
-│   ├── model_utils.py                 # Custom DL helper functions
-│   └── plot_settings.py               # Publication-ready plotting configs
-├── data/                              # Metadata & Download Links
-└── environment.yml                    # Conda environment for reproducibility
-
-```
 
 ---
 
